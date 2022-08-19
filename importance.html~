@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <style>  
+      ul {
+	  list-style-type: none;
+	  padding: 0;
+	  overflow: hidden;
+      }
+      
+      li {
+	  float: left;
+      }
+      
+      li a {
+	  display: block;
+	  padding: 8px;
+	  background-color: pink;
+      }
+    </style>  
+  </head>
+  
+  <body>
+
+    <ul>
+      
+      <li><a href="index.html">Main Page</a></li>
+      <li><a href="aboutme.html">About Me</a></li>
+      <li><a href="classes.html">Classes</a></li>
+      <li><a href="isp.html">ISP</a></li>
+    </ul>
+    
+    <h1>Importance of a Digital Portfolio</h1>
+    
+    <p>Having a Digital Portfolio is important because it can showcase my programming effiency and skill to potential employees and it can also help track personal progress as it reflects the skill level of the author. A Digital Portfolio is a great way to maximize information while minimizing time and space, allowing for a quick and brief presentatin of information that could be attractive for future employers, teachers, co-workers, and more.</p>
+    
+  </body>
+</html>

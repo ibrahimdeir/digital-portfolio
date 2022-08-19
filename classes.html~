@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <style>  
+      ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+      }
+      
+      li {
+	  float: left;
+      }
+      
+      li a {
+	  display: block;
+	  padding: 8px;
+	  background-color: pink;
+      }
+    </style>  
+  </head>
+  
+  <body>
+    
+    <ul>
+      
+      <li><a href="index.html">Main Page</a></li>
+      <li><a href="aboutme.html">About Me</a></li>
+      <li><a href="importance.html">Importance</a></li>
+      <li><a href="isp.html">ISP</a></li>
+    </ul>
+
+    <h1>Classes</h1>
+
+    <p>Some of my past experiences and classes include Fundamentals of Computer Science, a class that introduced programming languages such as Javascript and HTML. Another class is Computer Science I, a class that delved further into Computer Programming through the Swift language. In addition to these classes, I have spent personal time and effort learning the C++ language.</p>
+    <p>Last year in Computer Science I, I learned many fundamental and important skills for programming, including the beginning of animation, drawing with turtles, finite state machines, functions, and working with karel.<p>
+  </body>
+</html>

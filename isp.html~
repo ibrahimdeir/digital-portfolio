@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+
+      div.gallery {
+	  margin: 5px;
+	  border: 1px solid #ccc;
+	  float: left;
+	  width: 180px;
+      }
+
+      div.gallery:hover {
+	  border: 1px solid #777;
+      }
+
+      div.gallery img {
+	  width: 100%;
+	  height: auto;
+      }
+
+      div.desc {
+	  padding: 15px;
+	  text-align: center;
+      }
+      
+      ul {
+	  list-style-type: none;
+	  padding: 0;
+	  overflow: hidden;
+      }
+      
+      li {
+	  float: left;
+      }
+      
+      li a {
+	  display: block;
+	  padding: 8px;
+	  background-color: lemonchiffon;
+      }
+    </style>  
+  </head>
+  
+  <body>
+
+    <div class="gallery">
+      <a target="a_blank" href="img_5terre.jpg">
+	<img src="img_5terre.jpg" alt="Clinque Terre" width="600" height="400">
+      </a>
+      <div class="desc">Add a description of the image here</div>
+    </div>
+    
+    <ul>
+      
+      <li><a href="index.html">Main Page</a></li>
+      <li><a href="aboutme.html">About Me</a></li>
+      <li><a href="classes.html">Classes</a></li>
+      <li><a href="importance.html">Importance</a></li>
+    </ul>
+    
+    <h1>ISP</h1>
+    
+    <p>Near the end of last year, me and a couple of my peers had to create something called an ISP, or an independent service project. There were a few ups and downs to the ISP, but the final project was one that our group was proud of and highly enjoyed.</p>
+
+    <h2>Concept</h2>
+    <p>The concept for our ISP was to create a games repository, mocking bigger projects such as coolmathgames. We strived to create three functional buttons that navigated to three different games, with an overarching theme of 'cool colors', such as greens, blues, purples, etc. The three games we wanted to create were Tic Tac Toe, Rainbow Mouse, and Wordle.</p>
+
+    <h2>Motivation</h2>
+    <p>Our motivation was due to our love of fun and interesting, yet simple games. We looked to viral games such as Wordle, and classic games such as Tic Tac Toe, games we all loved as children and even now.</p>
+    <h2>Code Segment</h2>
+    <p>
+    
+    
+  </body>
+</html>

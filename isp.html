@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+
+      ul {
+	  list-style-type: none;
+	  padding: 0;
+	  overflow: hidden;
+      }
+      
+      li {
+	  float: left;
+      }
+      
+      li a {
+	  display: block;
+	  padding: 8px;
+	  background-color: lemonchiffon;
+      }
+    </style>  
+  </head>
+  
+  <body>
+
+    <ul>
+      
+      <li><a href="index.html">Main Page</a></li>
+      <li><a href="aboutme.html">About Me</a></li>
+      <li><a href="classes.html">Classes</a></li>
+      <li><a href="importance.html">Importance</a></li>
+    </ul>
+    
+    <h1>ISP</h1>
+    
+    <p>Near the end of last year, me and a couple of my peers had to create something called an ISP, or an independent service project. There were a few ups and downs to the ISP, but the final project was one that our group was proud of and highly enjoyed.</p>
+    
+    <h2>Concept</h2>
+    <p>The concept for our ISP was to create a games repository, mocking bigger projects such as coolmathgames. We strived to create three functional buttons that navigated to three different games, with an overarching theme of 'cool colors', such as greens, blues, purples, etc. The three games we wanted to create were Tic Tac Toe, Rainbow Mouse, and Wordle.</p>
+    
+    <h2>Motivation</h2>
+    <p>Our motivation was due to our love of fun and interesting, yet simple games. We looked to viral games such as Wordle, and classic games such as Tic Tac Toe, games we all loved as children and even now.</p>
+
+    <h2>Code Segment</h2>
+    <p>    func makeRectangle(to canvas: Canvas, rect: Rect, fillMode: FillMode = .stroke,</p>
+    <p>                strokeStyle: StrokeStyle = StrokeStyle(color: Color(.black)),</p>
+    <p>                lineWidth: LineWidth = LineWidth(width: 1),</p>
+    <p>                fillStyle: FillStyle = FillStyle(color: Color(.black))) </p>{
+        
+        <p>canvas.render(strokeStyle, lineWidth, fillStyle, Rectangle(rect: rect, fillMode: fillMode))</p>
+        
+    <p>}</p>
+    <p></p>
+    <p>This function creates the rectangle thats used for things like the wordle grid or the wordle keyboard.</p>
+    <p></p>
+    <p> func pullWords() throws {</p>
+    <p> let dictionaryURL = URL.init(fileURLWithPath: "/usr/share/dict/words")</p>
+    <p>let contents = try String(contentsOf: dictionaryURL, encoding: .utf8)</p>
+    <p>let words = contents.split(separator: "\n")</p>
+    
+    <p>for word in words {</p>
+    <p>if word.count == 5 && !word.contains("'") && !word.contains("é"){</p>
+    <p>fiveLetterWords.append(word.uppercased())</p>
+    <p>}</p>
+    <p>}</p>
+    
+    <p>let selectedAnswer = fiveLetterWords.randomElement()!</p>
+    <p>for c in selectedAnswer {</p>
+    <p>answer.append(c)</p>
+    <p>}</p>
+        
+    <p>}</p>
+    <p></p>
+    <p>This function is for the dictionary needed for wordle.</p>
+    <p></p>
+    <h2>Conclusions</h2>
+    <p>Things that went as expected in last year's ISP were the layout and functionality of the main page, called Party Mode, and the buttons, which led to each of the games. However, we had many setbacks, such as overestimating time and difficulty of the games, causing us to switch from Word Cross and Wordsearch to Rainbow Mouse and Tic Tac Toe. We also had some troubles with getting the dictionary to work in wordle and figuring out the logistics for the lettering on the main page, but we fixed those problems by importing a dictionary and filtering only the 5 letter words, and hollowing our letters by going counterclockwise when drawing them.</p>
+    
+  </body>
+</html>

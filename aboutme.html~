@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <style>  
+      ul {
+	  list-style-type: none;
+	  padding: 0;
+	  overflow: hidden;
+      }
+      
+      li {
+	  float: left;
+      }
+      
+      li a {
+	  display: block;
+	  padding: 8px;
+	  background-color: pink;
+      }
+    </style>  
+  </head>
+  
+  <body>
+
+    <ul>
+      
+      <li><a href="index.html">Main Page</a></li>
+      <li><a href="classes.html">Classes</a></li>
+      <li><a href="importance.html">Importance</a></li>
+      <li><a href="isp.html">ISP</a></li>
+    </ul>
+    
+    <h1>About Me</h1>
+    
+    <p>Hello, my name is Ibrahim Deir and I am currently a CSII student. I chose Computer Science as my pathway in order to help advance today's technology and hopefully create the technology of the future. I am a junior in Allen High School, I enjoy basketball and lifting weights, along with listening and creating music. I play the guitar and can play the Bb clarinet, and have enjoyed doing so for many years. I love my youth group at my church and love having a leadership position at my church where I can influence others in a positive manner.</p>
+    
+  </body>
+</html>
